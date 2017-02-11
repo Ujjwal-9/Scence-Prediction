@@ -17,5 +17,6 @@ Unzip the Download to the directory and then move your Terminal to this director
 
 
 ##To Run the program:
+Move to the directory where you have saved this repo.
 On Your Terminal, Type:
 ####python main.py
