@@ -77,8 +77,8 @@ def build_model():
     tf.reset_default_graph()
 
     net = tflearn.input_data([None,len(vocab)])
-    net = tflearn.fully_connected(net, 5, activation='ReLU')
-    net = tflearn.fully_connected(net, 5)
+    net = tflearn.fully_connected(net, 200, activation='ReLU')
+    net = tflearn.fully_connected(net, 25, activation='ReLU')
     net = tflearn.fully_connected(net, 2, activation='softmax')    
     net = tflearn.regression(net, optimizer='sgd', learning_rate=0.1, loss='categorical_crossentropy')
     model = tflearn.DNN(net)
