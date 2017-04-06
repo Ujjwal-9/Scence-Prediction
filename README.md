@@ -3,7 +3,7 @@ This program predicts whether the sentence you wrote is POSITIVE OR NEGATIVE
 
 ## To get Started:
 On Your Terminal, Type:
-####pip install -r requirements.txt
+#### pip install -r requirements.txt
     
 
 
